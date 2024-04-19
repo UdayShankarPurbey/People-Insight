@@ -1,0 +1,114 @@
+/* CONTAT US PAGE */
+.contact-page-col .py-130{background:#f1f1f1}
+.contact-page-col p{margin-top:0;margin-bottom:1rem}
+.contact-page-col label{display:inline-block}
+.contact-page-col textarea{resize:vertical}
+.contact-page-col .container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}
+@media (min-width:576px){
+.contact-page-col .container{max-width:540px}
+}
+@media (min-width:768px){
+.contact-page-col .container{max-width:720px}
+}
+@media (min-width:992px){
+.contact-page-col .container{max-width:960px}
+}
+@media (min-width:1200px){
+.contact-page-col .container{max-width:1140px}
+}
+@media (min-width:1400px){
+.contact-page-col .container{max-width:1320px}
+}
+.contact-page-col .form-control{display:block;line-height:1.5;color:#212529;background-clip:padding-box;-webkit-appearance:none;-moz-appearance:none;appearance:none;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+@media (prefers-reduced-motion:reduce){
+.contact-page-col .form-control{transition:none}
+}
+.contact-page-col .form-control:focus{color:#212529;background-color:#fff;border-color:#86b7fe;outline:0;box-shadow:0 0 0 .25rem rgba(13,110,253,.25)}
+.contact-page-col .form-control::-webkit-date-and-time-value{height:1.5em}
+.contact-page-col .form-control::placeholder{color:#6c757d;opacity:1}
+.contact-page-col .form-control:disabled,.form-control[readonly]{background-color:#e9ecef;opacity:1}
+.contact-page-col .form-control::-webkit-file-upload-button{padding:.375rem .75rem;margin:-.375rem -.75rem;-webkit-margin-end:.75rem;margin-inline-end:.75rem;color:#212529;background-color:#e9ecef;pointer-events:none;border-color:inherit;border-style:solid;border-width:0;border-inline-end-width:1px;border-radius:0;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+@media (prefers-reduced-motion:reduce){
+.contact-page-col .form-control::-webkit-file-upload-button{-webkit-transition:none;transition:none}
+}
+.contact-page-col .form-control:hover:not(:disabled):not([readonly]) .contact-page-col textarea.form-control{min-height:calc(1.5em + (.75rem + 2px))}
+.contact-page-col .w-100{width:100%!important}
+.contact-page-col .justify-content-between{justify-content:space-between!important}
+.contact-page-col .mb-0{margin-bottom:0!important}
+.contact-page-col .pt-5{padding-top:3rem!important}
+.contact-page-col footer:after{display:block;clear:both;content:""}
+.contact-page-col .form-control{width:100%;height:auto;background-color:#fff;border:1px solid #000}
+.contact-page-col textarea{padding-top:20px}
+.contact-page-col label{cursor:pointer;font-weight:500;margin-bottom:5px;color:#55e6a5}
+.contact-page-col .form-group{position:relative}
+.contact-page-col .page-wrapper{position:relative;z-index:9;width:100%;margin:0 auto;overflow:hidden;min-width:300px}
+@media only screen and (min-width:1200px){
+.contact-page-col .container{max-width:1355px;padding-left:15px;padding-right:15px}
+}
+.contact-page-col .row{--bs-gutter-x:30px}
+@media only screen and (min-width:1400px){
+.contact-page-col .gap-60{--bs-gutter-x:60px}
+}
+@media only screen and (min-width:1400px){
+.contact-page-col .gap-80{--bs-gutter-x:80px}
+}
+.contact-page-col .section-title{margin-top:-7px;position:relative}
+.contact-page-col .section-title .sub-title{font-size:18px;font-weight:500;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;text-transform:capitalize}
+.section-title .sub-title:before{content:'';width:36px;height:10px;margin-right:10px;background:url(https://ygency-light.netlify.app/assets/images/icons/sub-title.svg) no-repeat 100% 100%}
+.contact-page-col .theme-btn{cursor:pointer;-webkit-transition:.5s;-o-transition:.5s;transition:.5s;font-weight:600;text-align:center;padding:13px 35px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-transform:capitalize;border:1px solid #000}
+.contact-page-col .theme-btn i{-webkit-transition:.25s;-o-transition:.25s;transition:.25s;margin-left:10px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+@media only screen and (max-width:575px){
+.contact-page-col .theme-btn{padding:10px 25px}
+}
+.contact-page-col .theme-btn.style-two{color:#fff;background:#ff7c00;border-color:#ff7c00}
+.contact-page-col .social-style-two{-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;margin-left:-5px;margin-right:-5px}
+.contact-page-col .social-style-two a{margin-left:5px;margin-right:5px;border:1px solid #000;width:35px;height:35px;background:0 0;line-height:35px;border-radius:50%;text-align:center}
+.contact-page-col .rel{position:relative}
+.contact-page-col .z-1{z-index:1}
+.contact-page-col h3{font-size:30px;margin-top:15px;font-weight:600}
+.contact-page-col h4{line-height:1.4;font-size:24px;margin-top:0}
+.contact-page-col h5{line-height:1.45;font-size:20px}
+.contact-page-col .pt-5{padding-top:5px!important}
+.contact-page-col .pt-15{padding-top:15px}
+.contact-page-col .py-130{padding-top:130px}
+.contact-page-col .pb-30{padding-bottom:30px}
+.contact-page-col .py-130{padding-bottom:130px}
+.contact-page-col .mb-35{margin-bottom:35px}
+.contact-page-col .mb-40{margin-bottom:40px}
+.contact-page-col .mb-60{margin-bottom:60px}
+@media only screen and (max-width:991px){
+.contact-page-col .rpy-100{padding-top:100px}
+.contact-page-col .rpy-100{padding-bottom:100px}
+.contact-page-col .rmb-55{margin-bottom:55px}
+}
+.contact-page-col .delay-0-2s{-webkit-animation-delay:.2s;animation-delay:.2s}
+.contact-page-col .form-style-one .form-group label{position:absolute;left:0;top:0}
+.contact-page-col .form-style-one .form-control{font-weight:500;border-radius:0;border-style:solid;border-width:0 0 1px;padding:1px 0 20px 33px;background:0 0;border-color:#000}
+.contact-page-col .form-style-one .form-control:focus,.contact-page-col .form-style-one .nice-select:focus{border-color:#02050a}
+.contact-page-col .our-location-address h5{margin-bottom:25px;padding-bottom:25px;border-bottom:1px solid #000}
+@media only screen and (min-width:376px){
+.contact-page-col .our-location-address h5{font-size:22px}
+}
+.contact-page-col.our-location-address p{margin-bottom:10px}
+.contact-page-col.our-location-address .mailto{color:#000;margin-bottom:10px;display:inline-block}
+.contact-page-col.our-location-address .callto{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}
+.contact-page-col .contact-page-form{padding:60px;background:#f8fafd}
+@media only screen and (max-width:479px){
+.contact-page-col .contact-page-form{padding-left:35px;padding-right:35px}
+}
+@media only screen and (max-width:375px){
+.contact-page-col .contact-page-form{padding-left:25px;padding-right:25px}
+}
+.contact-page-col .contact-page-form .form-group{margin-bottom:30px}
+.contact-page-col .contact-page-form .form-group .form-control,.contact-page-col .contact-page-form .form-group label{font-size:16px}
+.contact-page-col #msgSubmit{margin-bottom:0;margin-top:10px}
+.contact-page-col .heading-h2{margin-bottom:clamp(1.25rem,1.0714rem + .8929vw,2.1875rem);z-index:10;font-family:Staatliches;height:auto;width:auto;text-decoration:none;text-align:left;letter-spacing:0;font-weight:400;opacity:1;visibility:visible;margin-top:14px;font-size:clamp(2.8125rem, 2.6529rem + .7979vw, 3.75rem);line-height:1.1;white-space:normal}
+.contact-page-col .mb-15{margin-bottom:15px;font-weight:600}
+.our-location-address.mb-40 i{margin-left:5px;margin-right:5px;border:1px solid #000;width:35px;height:35px;background:0 0;line-height:35px;border-radius:50%;text-align:center;color:#ff7c42}
+.row-grig{display:grid;grid-template-columns:52% 44%;column-gap:50px}
+@media only screen and (max-width:1024px){
+.row-grig{display:grid;grid-template-columns:1fr;column-gap:20px}
+.contact-page-col .contact-page-form{padding:60px 30px;background:#f8fafd}
+}
+
+/* CONTAT US PAGE */
