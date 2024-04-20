@@ -1,34 +1,17 @@
-<nav class="main-nav stick-fixed transparent wch-unset wow-menubar">
-    <div class="full-wrapper main-nav-sub">
-        <div class="local-scroll nav-logo-wrap"><a href=#top class=logo><img alt="Your Company Logo" src='../../../assets/img/logo/logo-dark.png' height=auto width=200></a></div>
-        <div class=mobile-nav role=button tabindex=0><i class=mobile-nav-icon></i> <span class=visually-hidden>Menu</span></div>
-        <div class="desktop-nav inner-nav">
-            <ul class="local-scroll clearlist scroll-nav">
-                <li><a routerLink="/home" class=active>Home</a></li>
-                <li>
-                    <a routerLink="/about" class="opacity-1 mn-has-sub">About Us 
-                        <i class=mi-chevron-down></i>
-                    </a>
-               
-                    <ul class=mn-sub>
-                        <li><a href=#>English</a>
-                        <li><a href=#>French</a>
-                        <li><a href=#>German</a>
-                    </ul>
-
-                </li>   
-                <li><a href=#blog>Blog</a> </li>
-                <li><a routerLink="/contact">Contact</a> </li>
-            </ul>
-            <ul class="local-scroll clearlist items-end">
-                <li><a href=# class="opacity-1 mn-has-sub">En <i class=mi-chevron-down></i></a>
-                    <ul class="mn-sub to-left">
-                        <li><a href=#>English</a>
-                        <li><a href=#>French</a>
-                        <li><a href=#>German</a>
-                    </ul>
-                <li><a href=#contact class="opacity-1 no-hover"><span class="link-hover-anim underline" data-link-animate=y>Let's work together</span></a>
-            </ul>
-        </div>
-    </div>
-</nav>
+<header class="bg-white">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <!-- //todo : site link  -->
+        <a routerLink="/home" class="-m-1.5 p-1.5">
+          <img class="h-8 w-auto" src="../../../assets/img/logo/logo-dark.png" alt="PeopleInsightLogo">
+        </a>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12">  
+        <a routerLink="/home" routerLinkActive="text-blue-600 font-bold underline underline-offset-1" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Home</a>
+        <a routerLink="/about" routerLinkActive="text-blue-600 font-bold underline underline-offset-1" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">About Us</a>
+        <a routerLink="/gallery" routerLinkActive="text-blue-600 font-bold underline underline-offset-1" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Gallery</a>
+        <a routerLink="/news" routerLinkActive="text-blue-600 font-bold underline underline-offset-1" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">In The News</a>
+        <a routerLink="/contact" routerLinkActive="text-blue-600 font-bold underline underline-offset-1" class="text-sm font-semibold leading-6 text-gray-900 hover:text-orange-500">Contact Us</a>
+      </div>
+    </nav>  
+  </header>
